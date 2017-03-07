@@ -48,9 +48,13 @@
 
 * Use a git [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow) with [pull requests](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) (PR), the team lead / project owner is the only one with write access to the main repo. 
 
+
+
   * Feature branches may be used locally, but should be removed before creating a PR
   * Create a tag per new GA release
   * Create a new branch when working on major new releases to be able to backport fixes to the stable release
+
+* Use AngularJS style [commit messages](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit)
 
 * Lifecycle Stages:
 
