@@ -4,7 +4,7 @@
 
 ## How we make things
 
->  **Favour KISS above all else, complexity is hard to debug**
+>  **Favour KISS("Keep it simple, stupid") above all else, complexity is hard to debug**
 
 #### API Design
 
