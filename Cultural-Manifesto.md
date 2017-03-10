@@ -10,6 +10,7 @@
 
 
 * API's (REST or Java based) should be stable and backwards compatible
+* Use Http response object in Java, and default to Http response codes (200,301,404,etc)
 * Methods and parameters should be self documenting
 * Avoid checked exceptions
 * Favour appending to the API and marking the old method as depreceated over updating/replacing
