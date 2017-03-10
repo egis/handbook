@@ -13,6 +13,7 @@ advisable to use Brew to install these packages as it will help manage future up
 
 * **PostgreSQL 9.4** : bash brew install homebrew/versions/postgresql94
 * **PgAdmin3**  : brew cask install pgadmin3
+* **Gradle**  : brew install gradle  
 * **IntelliJ** : brew cask install intellij-idea 
 * **LibreOffice** : brew cask install libreoffice 
 * **Hipchat** : brew cask install hipchat
@@ -26,5 +27,5 @@ will give you and in-depth overview of how the module/sub-modules operates.
 ### Papertrail Dev Portal
 
 In laymen terms, Papertrail has a UI and backend component. To understand Papertrail in more detail, have a look at the 
-developer portal for a in-depth understanding on it's components, how to build and deploy them, how they go throught the
-Dev Ops Cycle,etc
+[PaperTrail Developer Portal](http://developer.papertrail.co.za/#bootstraping-projects) for a in-depth understanding on 
+it's components, how to build and deploy them, how they go through the Dev Ops Cycle,etc
