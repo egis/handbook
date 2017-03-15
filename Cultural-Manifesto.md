@@ -10,6 +10,7 @@
 
 
 * API's (REST or Java based) should be stable and backwards compatible
+* Eliminate boilerplate
 * Methods and parameters should be self documenting
 * Avoid checked exceptions
 * Favour appending to the API and marking the old method as depreceated over updating/replacing
@@ -23,20 +24,23 @@
 
 * **Build** when there are no alternatives or the alternatives are too expensive or complex.  
 
-
 * **Open Source** libraries should be used when possible, just ensure that the project will have longevity i.e. backed by an organisation like Apache, Google or a 2+ man commercial operation.  
 
-
-*  **Buy** when it is cheaper than building  
+*  **Buy** when then the TCO is lower than building (including initial development and maintenance)
 
 #### Design
 
-- Design for testability and more importantly test speed and stability
 - Include feature toggles so that broken features can be turned off, and behaviour can be changed based on a clients needs. Do not change the default feature setting until at least a major release.
 - Backwards compatibility is critical in terms of behaviour, configs and data. Upgrades between releases 5y+ years old is not unheard of.
 - Backend services should be stateless if at all possible, Never store session user state.
-- ​
 - While PaperTrail is deployed as a monolithic application it is composed of many modules and repositories. The primary reason is to reduce testing times. In addition each repository can have it's own lifecycle for languages and tooling 
+
+#### Testing
+
+- Design for testability and more importantly test speed and stability
+- Focus on feature tests, integration tests (e2e) and unit tests (in that order)
+- Practise TDD (Test driven development) at the feature or e2e level, not unit test level
+- Don't create tests for the sake of it as tests require maintenance - tests should actually test something that could potentially break 
 
 #### DevOps Toolchain
 
@@ -48,8 +52,6 @@
 
 * Use a git [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow) with [pull requests](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) (PR), the team lead / project owner is the only one with write access to the main repo. 
 
-
-
   * Feature branches may be used locally, but should be removed before creating a PR
   * Create a tag per new GA release
   * Create a new branch when working on major new releases to be able to backport fixes to the stable release
@@ -57,35 +59,13 @@
 * Use AngularJS style [commit messages](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit)
 
 * Lifecycle Stages:
-
+See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)  
   * **New** - *Use cautiously and only for POC's or low risk items*
   * **OK** - *Can be used in place of standard by developer choice*
   * **Standard** *The default*
   * **Old**  *Continue use for current projects, but avoid for new projects / tasks*
   * **Migrate** *Migrate at the first possible oppurtunity avoid new features or improvements*
-
-  | Layer           | Language             | Build Wrapper                            | Lifecycle |
-  | --------------- | -------------------- | ---------------------------------------- | --------- |
-  | Backend         | Java 8               | [**gradle-build**](https://github.com/egis/gradle-build)  → S3 |           |
-  | XML / JSON      | Groovy               |                                          |           |
-  |                 | Java < 8             |                                          | Old       |
-  |                 | Scala                |                                          | New       |
-  | Frontend (SPA)  | JavaScript (ES6)     | [**build-tools**](https://github.com/egis/build-tools)   → NPM |           |
-  | Mobile          | JavaScript           | cordova / Ionic  → S3                    |           |
-  |                 | ant                  |                                          | Old       |
-  |                 | ES5, Grunt           |                                          | Migrate   |
-  |                 | ExtJS                |                                          | Migrate   |
-  | Ops / Reporting | Python2              |                                          | Old       |
-  | Ops / Reporting | Python3              |                                          |           |
-  | Ops / Reporting | Ruby                 |                                          |           |
-  |                 | C#                   |                                          |           |
-  |                 | Golang               |                                          |           |
-  |                 | vCenter              |                                          | Old       |
-  |                 | ESXi with local disk |                                          |           |
-  |                 | Docker               |                                          |           |
-  |                 | AWS                  |                                          |           |
-  |                 |                      |                                          |           |
-
+  
 ## How we operate things
 
 * KISS, Avoid shared state and SAN's
@@ -161,7 +141,7 @@ Roles and job titles are based on ability
 
 * Positive feeback should be in public
 
-  ##### Performance Improvement Plans (PIP)
+  #### Performance Improvement Plans (PIP)
 
 * Should regular coaching not be sufficient to improve performance to required levels an employee will be placed on a PIP which will have specific objectives that need to be met in order to retain employment. PIP's run for 1 - 3 months depending on the scenario with weekly written feedback on progress towards the objectives.
 
