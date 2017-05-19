@@ -6,7 +6,7 @@
 
 We try and and implement modern agile principles - while we are far from a good example of a modern agile organization, it is something we aspire to be:
 
-[![](http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg | width=250 )](http://modernagile.org/)
+<a href="http://modernagile.org"><img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="300"></a>
 
 ## How we make things
 
