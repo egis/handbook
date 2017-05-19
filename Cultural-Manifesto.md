@@ -2,6 +2,12 @@
 
 >  Kevin Scott - The VP of engineering at LinkedIn/AdMob coined the term [cultural manifesto](http://firstround.com/review/how-i-structured-engineering-teams-at-linkedin-and-admob-for-success/)
 
+## Agile
+
+We try and and implement modern agile principles - while we are far from a good example of a modern agile organization, it is something we aspire to be:
+
+[![](http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg)](http://modernagile.org/)
+
 ## How we make things
 
 >  **Favour KISS("Keep it simple, stupid") above all else, complexity is hard to debug**
