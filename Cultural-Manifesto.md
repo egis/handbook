@@ -127,7 +127,7 @@ Roles and job titles are based on ability
 | UI                                       | ✔      | ✔    | ✔      | ✔          | ✔         | ✔         |
 | Backend fixes and improvements           | ◯      | ✔    | ✔      | ✔          | ✔         | ✔         |
 | Backend Features                         | ◯      | ◯    | ✔      | ✔          | ✔         | ✔         |
-| Business Analysis                        | ●      | ●    | ● ●    | ● ● ●      | ● ● ●     | ● ● ● ●   |
+| Business Analysis                        | ●      | ●    | ● ●    | ● ●       | ● ● ●     | ● ● ●    |
 | Bootstrap a project with a build pipeline, tests, CI, etc. |        |      | ✔      | ✔          | ✔         | ✔         |
 | Justify a tech stack                     |        |      | ✔      | ✔          | ✔         | ✔         |
 | Evaluate tech stack's for a specific environment |        |      | ◯      | ◯          | ◯         | ✔         |
@@ -138,7 +138,13 @@ Roles and job titles are based on ability
 | Mentor and Coach Developers              |        |      |        |            | ✔         | ✔         |
 | Design and create developer tooling      |        |      |        |            |           | ✔         |
 | Create a technology roadmap and strategy |        |      |        |            |           | ✔         |
-
+  
+✔ - Must have   
+ ◯ - Nice to have  
+ ● - Limited Experience  
+ ●● - Practial Experience   
+ ●●● - Advanced / Expert  
+ 
 ### Performance Management
 
 * Performance is monitored by managers through day to day interaction, review of public comms and via KPI's / OKR's
