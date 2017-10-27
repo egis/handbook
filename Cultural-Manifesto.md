@@ -44,9 +44,10 @@ We try and and implement modern agile principles - while we are far from a good 
 #### Testing
 
 - Design for testability and more importantly test speed and stability
-- Focus on feature tests, integration tests (e2e) and unit tests (in that order)
+- [Write tests. Not too many. Mostly integration](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c)
 - Practise TDD (Test driven development) at the feature or e2e level, not unit test level
 - Don't create tests for the sake of it as tests require maintenance - tests should actually test something that could potentially break 
+
 
 #### DevOps Toolchain
 
