@@ -71,7 +71,7 @@ See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)
   * **OK** - *Can be used in place of standard by developer choice*
   * **Standard** *The default*
   * **Old**  *Continue use for current projects, but avoid for new projects / tasks*
-  * **Migrate** *Migrate at the first possible oppurtunity avoid new features or improvements*
+  * **Migrate** *Migrate at the first possible opportunity avoid new features or improvements*
   
 ## How we operate things
 
