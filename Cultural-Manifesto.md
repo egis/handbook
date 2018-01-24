@@ -86,7 +86,7 @@ See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)
 
 * Daily cross functional standups for real time comms
 * Jira for issue tracking, Google drive for doc collaboration
-* Hipchat for semi-sync comms
+* Slack for semi-sync comms
 * Email or face 2 face meetings for everything that doesn't fit above
 
 ### Team Structure
