@@ -11,7 +11,8 @@
 | PostgreSQL / MySQL / SQL Server          | 3 most common db platforms               |           |
 | Lucene                                   | Easily embeddable, supports single node and custom filters for advanced ACL's |           |
 | TestNG                                   | Better support for listeners, ignores etc. |           |
-| C#                                       | Most widely used and supported language for deskop apps |           |
+| C#                                       | Most widely used and supported language for deskop apps |           EOL|
+|Electron|Better support for cross platform desktop applications||
 | Golang                                   | A better alternative to C and C++        |           |
 | Python                                   | Developer friendly, available by default on Ubuntu |           |
 | Markdown                                 | Ease of onboarding / migration between platforms - Easily diffable for PR's |           |
