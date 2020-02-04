@@ -4,7 +4,7 @@
 
 ## Agile
 
-We try and and implement modern agile principles - while we are far from a good example of a modern agile organization, it is something we aspire to be:
+We try and implement modern agile principles - while we are far from a good example of a modern agile organization, it is something we aspire to be:
 
 <a href="http://modernagile.org"><img src="http://modernagile.org/img/modernAgileWheel/modern_agile_wheel_english.svg" width="300"></a>
 
@@ -19,9 +19,9 @@ We try and and implement modern agile principles - while we are far from a good 
 * Eliminate boilerplate
 * Methods and parameters should be self documenting
 * Avoid checked exceptions
-* Favour appending to the API and marking the old method as depreceated over updating/replacing
+* Favour appending to the API and marking the old method as depreceated over updating/ replacing
 * Enforce API encapsulation by importing only the `*-api.jar` where possible
-* Use sane defaults, make configuration optional or encapsulated in a builder / config object
+* Use sane defaults, make configuration optional or encapsulated in a builder/ config object
 
 
 #### Build vs Buy vs OpenSource
@@ -51,7 +51,7 @@ We try and and implement modern agile principles - while we are far from a good 
 
 #### DevOps Toolchain
 
-* Use a GitHub repo per project, module or client. You can use submodules or just clone repo's to the same directory to simulate a Mono Repo
+* Use a GitHub repo per project, module or client. You can use submodules or just clone repos to the same directory to simulate a Mono Repo
 
   *Without a dedicated SDET team,  testing times for a Mono Repo become too long*
 
@@ -67,7 +67,7 @@ We try and and implement modern agile principles - while we are far from a good 
 
 * Lifecycle Stages:
 See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)  
-  * **New** - *Use cautiously and only for POC's or low risk items*
+  * **New** - *Use cautiously and only for POCs or low risk items*
   * **OK** - *Can be used in place of standard by developer choice*
   * **Standard** *The default*
   * **Old**  *Continue use for current projects, but avoid for new projects / tasks*
@@ -75,7 +75,7 @@ See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)
   
 ## How we operate things
 
-* KISS, Avoid shared state and SAN's
+* KISS, Avoid shared state and SANs
   * e.g. ESXi with local disk
 * Backup to Amazon S3 and allow rapid automated restore to EC2 for testing 
   * **NB: Test at least once per quarter**
@@ -94,7 +94,7 @@ See [Tech Stack](https://github.com/egis/handbook/blob/master/Tech-Stack.md)
 A flat communication structure, but a normal hierachical organizational structure with each manager having no more than 7 - 10 direct reports
 
 * Prefer long time permanent staff over contractors - The value to the company increases with experience in the domain.
-* Always have new hires conduct a real life techinical test e.g. coding / prepping a server / writing a spec
+* Always have new hires conduct a real life technical test e.g. coding/ prepping a server/ writing a spec
 
 ### OKR
 
@@ -104,7 +104,7 @@ OKR are similar to KPI's but they differ in a few ways:
 
 * Negotiated individually for each team member
 * Target 70% completion rate, too low and people become demotivated, too high and they are not being challenged
-* Should align with team and company wide OKR's
+* Should align with team and company wide OKRs
 
 ### 1-1
 
@@ -113,7 +113,7 @@ OKR are similar to KPI's but they differ in a few ways:
 See [What is a 1-1](https://wavelength.asana.com/workstyle-what-is-a-1-1/) 
 
 * Mandatory regular scheduled meeting between for each employee and their manager
-* Not for status updates, more about career growth, monitoring OKR's and **getting** feedback
+* Not for status updates, more about career growth, monitoring OKRs and **getting** feedback
 
 
 
@@ -131,7 +131,7 @@ Roles and job titles are based on ability
 | Business Analysis                        | ●      | ●    | ● ●    | ● ●       | ● ● ●     | ● ● ●    |
 | Bootstrap a project with a build pipeline, tests, CI, etc. |        |      | ✔      | ✔          | ✔         | ✔         |
 | Justify a tech stack                     |        |      | ✔      | ✔          | ✔         | ✔         |
-| Evaluate tech stack's for a specific environment |        |      | ◯      | ◯          | ◯         | ✔         |
+| Evaluate tech stacks for a specific environment |        |      | ◯      | ◯          | ◯         | ✔         |
 | Design a database schema                 |        |      | ◯      | ✔          | ◯         | ✔         |
 | Deploy and support application into production |        |      |        | ✔          | ◯         | ✔         |
 | Debug at the OS and Network level        |        |      |        | ✔          | ◯         | ✔         |
@@ -148,7 +148,7 @@ Roles and job titles are based on ability
  
 ### Performance Management
 
-* Performance is monitored by managers through day to day interaction, review of public comms and via KPI's / OKR's
+* Performance is monitored by managers through day to day interaction, review of public comms and via KPIs/ OKRs
 
 * Constructive critical feedback should be in private as soon as possible after the event
 
@@ -156,7 +156,7 @@ Roles and job titles are based on ability
 
   #### Performance Improvement Plans (PIP)
 
-* Should regular coaching not be sufficient to improve performance to required levels an employee will be placed on a PIP which will have specific objectives that need to be met in order to retain employment. PIP's run for 1 - 3 months depending on the scenario with weekly written feedback on progress towards the objectives.
+* Should regular coaching not be sufficient to improve performance to required levels an employee will be placed on a PIP which will have specific objectives that need to be met in order to retain employment. PIPs run for 1 - 3 months depending on the scenario with weekly written feedback on progress towards the objectives.
 
-* PIP's are not meant to be a mechanism for providing evidence of poor performance for dismissal, but rather a formalized mechanism to improve performance.
+* PIPs are not meant to be a mechanism for providing evidence of poor performance for dismissal, but rather a formalized mechanism to improve performance.
 
