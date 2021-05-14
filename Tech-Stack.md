@@ -70,7 +70,7 @@
 | Sendgrid                                 | SMTP server                              |      |
 | Google Apps                              | Email (IMAP/POP) provider                |      |
 | Hipchat                                  | Team chatrooms - Migrating to Slack      | EOL  |
-| Slack                                    |                                          | NEW  |
+| Discord                                  | Great platform that makes quick meetings/standups great   |      |
 | Trello                                   | High level dev and sales tracking        |      |
 | Fortigate                                | Firewall and IPS - Reasonable prices, Out of the box HA and VPN |      |
 | Dell                                     | Reasonable prices, especially for HDD's, iDRAC works fairly well |      |
